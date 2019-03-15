@@ -7,29 +7,31 @@
     <title>Calculator App</title>
 </head>
 <body>
-    <form>
+    <form name="calculator">
         <table>
             <tr>
    <td> <p>1st Number</p></td>
    <td>:</td>
    <td>
-    <input  type="number"></td>
+    <input  type="text" id="n1"></td>
     </tr>
     <tr>
             <td> <p>2nd Number</p></td>
             <td>:</td>
             <td>
-             <input  type="number"></td>
+             <input  type="text" id="n2"></td>
              </tr>
     </table>
+    <input type="text" name ="The result is">
+    <input type="button" value="Multiply" onclick="Multiply()">
+    <input type="button" value="Addition" onclick="Addition()">
+    <input type="button" value="Substraction" onclick="Substraction()">
+    <input type="button" value="Division" onclick="Division()">
     
-    <input type="button" value="Multiply">
-    <input type="button" value="Addition">
-    <input type="button" value="Substraction">
-    <input type="button" value="Division">
-    <p>The Result is: </p>
+
+     
     
-    </form> 
-    
+    </form>
+    <script src="dom.js"></script>
 </body>
 </html>
