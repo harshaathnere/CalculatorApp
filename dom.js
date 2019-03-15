@@ -8,21 +8,29 @@ function Multiply()
 {
      sumValues()
     result = n1*n2;
-    alert("the ans is" + result);
+    var res_element = document.getElementById("result")
+    res_element.value = result
+    // alert("the ans is" + result);
 }
 function Substraction()
 {   sumValues()
     result = n1-n2;
-    alert("the ans is" + result);
+    var res_element = document.getElementById("result")
+    res_element.value = result
+    // alert("the ans is" + result);
 }
 function Addition()
     {
         sumValues()
     result = n1+n2;
-    alert("the ans is" + result);
+    var res_element = document.getElementById("result")
+    res_element.value = result
+    // alert("the ans is" + result);
 }
 function Division()
 {  sumValues()
     result = n1/n2;
-    alert("the ans is" + result);
+    var res_element = document.getElementById("result")
+    res_element.value = result
+    // alert("the ans is" + result);
 }
